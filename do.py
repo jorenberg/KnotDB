@@ -15,3 +15,8 @@ __date__          = '31-10-2016'
 __copyright__     = "Prabhat Kumar"
 __webserver__     = "http://database.sequomics.com/knotdb/"
 __license__       = "http://database.sequomics.com/knotdb/license.txt"
+# ————————————————————————————————————————————————————————————————————————————
+module            = 'KnotXpert'
+input_path        = 'core/source/engine'
+output_path       = 'core/source/compiled/knotxpert.js'
+# ————————————————————————————————————————————————————————————————————————————
