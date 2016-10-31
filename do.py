@@ -11,3 +11,4 @@ __authors__       = [
     '"Sequømics Corporation" <admin@sequomics.com>'
     ]
 __license__       = 'Apache License'
+__date__          = '31-10-2016'
