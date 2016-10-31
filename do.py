@@ -30,3 +30,29 @@ import warnings
 from termcolor import colored
 # ————————————————————————————————————————————————————————————————————————————
 localtime = time.asctime(time.localtime(time.time()))
+
+header ='''/*!
+ * ┌────────────────────────────────────────────────────────────────────────────────┐
+ * | KnotXpert® of KnotDB®                                                          |
+ * ├────────────────────────────────────────────────────────────────────────────────┤
+ * | A manually curated dedicated computational proteomics proteins knots database. |
+ * ├────────────────────────────────────────────────────────────────────────────────┤
+ * | Using a basic and advance computational biology algorithms.                    |
+ * ├────────────────────────────────────────────────────────────────────────────────┤
+ * | Copyright © 2008 - 2016, Prabhat Kumar, All rights reserved.                   |
+ * └────────────────────────────────────────────────────────────────────────────────┘
+ * ----------------------------------------------------------------------------------
+ * Architecture and Code Handcrafted by Prabhat Kumar.
+ * Architectuur en Code handgemaakt door Prabhat Kumar.
+ * @author    : Prabhat Kumar [http://prabhatkumar.org/].
+ * @copyright : Prabhat Kumar [http://prabhatkumar.org/].
+ * __________________________________________________________________________________
+ *
+ * @date      : 01-Nov-2016
+ * @license   : Apache, version 2.0
+ * @require   : d3.js® & Raphaël.js®
+ * @build     : SEED™ — Katowice
+ *              └---- A Sequømics Product — http://sequomics.com/.
+ * __________________________________________________________________________________
+ */
+'''
