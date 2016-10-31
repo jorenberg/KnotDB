@@ -28,3 +28,5 @@ import time
 import tempfile
 import warnings
 from termcolor import colored
+# ————————————————————————————————————————————————————————————————————————————
+localtime = time.asctime(time.localtime(time.time()))
