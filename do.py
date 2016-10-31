@@ -20,3 +20,5 @@ module            = 'KnotXpert'
 input_path        = 'core/source/engine'
 output_path       = 'core/source/compiled/knotxpert.js'
 # ————————————————————————————————————————————————————————————————————————————
+# Load required modules.
+import os
