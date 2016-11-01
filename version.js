@@ -18,3 +18,10 @@
 // To load required Node module.
 // -----------------------------
 var path      = require('path');
+
+// ----------------------------------------------------------------------------------
+// To check 'package.json'.
+// ----------------------------------------------------------------------------------
+if (!path.resolve(path.join(__dirname,'./package.json'))) {
+  console.log(noop('SEED™: package.json is not found in to the root directory!'));
+}
