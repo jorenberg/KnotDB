@@ -53,3 +53,4 @@ var boop        = chalk.gray;
 // ~~~~~~~~~~~~~~~~~
 var rootPath    = './';
 var appsPath    = './app/';
+var docsPath    = './docs/';
