@@ -52,3 +52,4 @@ var boop        = chalk.gray;
 // Global variables.
 // ~~~~~~~~~~~~~~~~~
 var rootPath    = './';
+var appsPath    = './app/';
