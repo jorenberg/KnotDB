@@ -48,3 +48,7 @@ var noop        = chalk.red;
 var yeep        = chalk.green;
 var okay        = chalk.blue;
 var boop        = chalk.gray;
+
+// Global variables.
+// ~~~~~~~~~~~~~~~~~
+var rootPath    = './';
