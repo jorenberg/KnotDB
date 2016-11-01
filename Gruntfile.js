@@ -24,3 +24,7 @@
  * --/The Heart of Build System/-- of "KnotDB®".
  * ____________________________________________________________________
  */
+
+// # Usage: $ node -v
+// # Usage: $ npm -v
+// # Usage: $ grunt -version
