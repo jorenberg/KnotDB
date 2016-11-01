@@ -14,3 +14,7 @@
  */
 
 'use strict';
+
+// To load required Node module.
+// -----------------------------
+var path      = require('path');
