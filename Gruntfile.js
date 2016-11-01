@@ -40,4 +40,11 @@ var path        = require('path');
 
 // To load required NPM modules.
 // -----------------------------
-var chalk    = require('chalk');
+var chalk       = require('chalk');
+
+// Default color defined.
+// ----------------------
+var noop        = chalk.red;
+var yeep        = chalk.green;
+var okay        = chalk.blue;
+var boop        = chalk.gray;
