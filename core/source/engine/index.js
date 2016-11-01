@@ -7,7 +7,7 @@
  * ___________________________________________________________________________
  *
  * @version   : 1.0.0
- * @license   : MIT License
+ * @license   : Apache License
  * @require   : Modernizr
  * @require   : d3.js®
  * @build     : SEED™ — Katowice
