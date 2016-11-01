@@ -25,3 +25,9 @@ var path      = require('path');
 if (!path.resolve(path.join(__dirname,'./package.json'))) {
   console.log(noop('SEED™: package.json is not found in to the root directory!'));
 }
+// ----------------------------------------------------------------------------------
+// To check 'bower.json'.
+// ----------------------------------------------------------------------------------
+if (!path.resolve(path.join(__dirname,'./bower.json'))) {
+  console.log(noop('SEED™: bower.json is not found in to the root directory!'));
+}
