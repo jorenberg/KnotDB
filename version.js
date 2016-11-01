@@ -31,3 +31,10 @@ if (!path.resolve(path.join(__dirname,'./package.json'))) {
 if (!path.resolve(path.join(__dirname,'./bower.json'))) {
   console.log(noop('SEED™: bower.json is not found in to the root directory!'));
 }
+// ----------------------------------------------------------------------------------
+// A smart function named {noop} to show blue color on 'Terminal'.
+// @return: blue color
+// ----------------------------------------------------------------------------------
+function noop(str) {
+  return '\x1b[1m\x1b[34m' + str + '\x1b[39m\x1b[22m';
+}
