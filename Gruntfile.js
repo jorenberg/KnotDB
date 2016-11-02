@@ -106,3 +106,6 @@ module.exports = function(grunt) {
     //                  Copyright © 2014 - 2016, Sequømics Corporation, All rights reserved.
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     grunt.initConfig({
+        
+        /* reading 'package.json' for sync package(s) updates, mainly. */
+        pkg: grunt.file.readJSON('package.json'),
