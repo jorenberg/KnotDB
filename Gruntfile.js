@@ -58,3 +58,13 @@ var docsPath    = './docs/';
 var pkg         = require('./package.json');
 var bkg         = require('./bower.json');
 var version     = process.env.VERSION || require('./package.json').version;
+// ----------------------------------------------------------------------------------------------------------
+var banner      =
+    '/*!\n' +
+    ' * KnotDB®: v' + version + '\n' +
+    ' * A manually curated dedicated computational proteomics proteins knots database.\n' +
+    ' * Copyright © 2008 - ' + new Date().getFullYear() + ', Prabhat Kumar, All rights reserved.\n' +
+    ' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.\n' +
+    ' * Released under the Apache License (http://www.apache.org/licenses/).\n' +
+    ' */';
+// ----------------------------------------------------------------------------------------------------------
