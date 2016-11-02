@@ -100,3 +100,9 @@ module.exports = function(grunt) {
     // To generate data of protein(s).
     // ./pub/data/raw/ ——> ./pub/data/gold/
     var generateData = require('./pub/data/data-generator.js');
+    
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Project configuration for -//KnotDB®//-  |---------------------------| 02/Nov/2016 | SEED™ — Katowice.
+    //                  Copyright © 2014 - 2016, Sequømics Corporation, All rights reserved.
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    grunt.initConfig({
