@@ -82,3 +82,6 @@ module.exports = function(grunt) {
     
     // Check if our code is running on Travis.
     var isTravis = require('is-travis');
+    
+    // Date objects.
+    var today    = new Date();
