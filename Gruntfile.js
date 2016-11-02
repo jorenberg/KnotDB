@@ -56,3 +56,4 @@ var appsPath    = './app/';
 var docsPath    = './docs/';
 // To use inside grunt task.
 var pkg         = require('./package.json');
+var bkg         = require('./bower.json');
