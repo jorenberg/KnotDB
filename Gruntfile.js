@@ -74,3 +74,8 @@ var banner      =
 module.exports = function(grunt) {
     // Force use of Unix newlines.
     grunt.util.linefeed = '\n';
+    
+    // A regular expression.
+    RegExp.quote = function(string) {
+        return string.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
+    };
