@@ -32,3 +32,7 @@ var path        = require('path');
 // ~~~~~~~~~~~~~~~~~
 var rawPath     = './pub/data/raw/';
 var goldPath    = './pub/data/gold/';
+
+// To read data of protein(s).
+// Pass encoding, {utf8}, so `readFileSync` will return a string instead of a buffer.
+var dataSetting = fs.readFileSync('./pub/data/raw/settings.json', 'utf8');
