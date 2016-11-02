@@ -27,3 +27,8 @@
 // -----------------------------
 var fs          = require('fs');
 var path        = require('path');
+
+// Global variables.
+// ~~~~~~~~~~~~~~~~~
+var rawPath     = './pub/data/raw/';
+var goldPath    = './pub/data/gold/';
