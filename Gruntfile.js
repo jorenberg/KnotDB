@@ -79,3 +79,6 @@ module.exports = function(grunt) {
     RegExp.quote = function(string) {
         return string.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
     };
+    
+    // Check if our code is running on Travis.
+    var isTravis = require('is-travis');
