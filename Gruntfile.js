@@ -86,3 +86,7 @@ module.exports = function(grunt) {
     // Date objects.
     var today    = new Date();
     var timems   = Date.now();
+    
+    // 1. time-grunt
+    // Display the elapsed execution time of grunt tasks.
+    require('time-grunt')(grunt);
