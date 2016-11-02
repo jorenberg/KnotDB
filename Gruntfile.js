@@ -96,3 +96,7 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt, {
         scope: ['devDependencies', 'dependencies']
     });
+    
+    // To generate data of protein(s).
+    // ./pub/data/raw/ ——> ./pub/data/gold/
+    var generateData = require('./pub/data/data-generator.js');
