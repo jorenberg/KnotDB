@@ -54,6 +54,8 @@ var boop        = chalk.gray;
 var rootPath    = './';
 var appsPath    = './app/';
 var docsPath    = './docs/';
+// A destination directory.
+var buildPath   = './build/';
 // To use inside grunt task.
 var pkg         = require('./package.json');
 var bkg         = require('./bower.json');
