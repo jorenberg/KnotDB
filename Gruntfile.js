@@ -100,6 +100,11 @@ module.exports = function(grunt) {
         '!/lib/convert.js',
         '!/lib/assembly/*.js'
     ]);
+    // Includes: make part of a whole or set.
+    // grunt.file.expand([options, ] patterns)
+    var includes = grunt.file.expand([
+        __dirname + '/lib/' + pattern
+    ]);
     
     // 1. time-grunt
     // Display the elapsed execution time of grunt tasks.
