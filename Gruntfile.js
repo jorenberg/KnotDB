@@ -89,6 +89,10 @@ module.exports = function(grunt) {
     var today    = new Date();
     var timems   = Date.now();
     
+    // Advanced Grunt API.
+    /// -->> A mode defaults to `0777`.
+    var mode = '0777';
+    
     // 1. time-grunt
     // Display the elapsed execution time of grunt tasks.
     require('time-grunt')(grunt);
