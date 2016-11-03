@@ -92,6 +92,8 @@ module.exports = function(grunt) {
     // Advanced Grunt API.
     /// -->> A mode defaults to `0777`.
     var mode = '0777';
+    /// -->> A file globbing pattern.
+    var pattern = '**/*.js';
     
     // 1. time-grunt
     // Display the elapsed execution time of grunt tasks.
