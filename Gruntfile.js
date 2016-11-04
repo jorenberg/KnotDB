@@ -105,6 +105,8 @@ module.exports = function(grunt) {
     var includes = grunt.file.expand([
         __dirname + '/lib/' + pattern
     ]);
+    // To write process log(s).
+    var contents = null;
     
     // 1. time-grunt
     // Display the elapsed execution time of grunt tasks.
